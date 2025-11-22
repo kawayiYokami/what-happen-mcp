@@ -1,0 +1,39 @@
+{
+  "name": "news-aggregator-mcp",
+  "version": "0.1.0",
+  "description": "news-aggregator-mcp",
+  "private": true,
+  "type": "module",
+  "bin": {
+    "news-aggregator-mcp": "./build/index.js",
+    "news-aggregator": "./build/cli.js"
+  },
+  "files": [
+    "build"
+  ],
+  "scripts": {
+    "build": "tsc && node -e \"require('fs').chmodSync('build/index.js', '755')\" && node -e \"require('fs').chmodSync('build/cli.js', '755')\"",
+    "prepare": "npm run build",
+    "watch": "tsc --watch",
+    "inspector": "npx @modelcontextprotocol/inspector build/index.js"
+  },
+  "dependencies": {
+    "@jixun/qmweb-sign": "^2.0.3",
+    "@modelcontextprotocol/sdk": "0.6.0",
+    "@types/md5": "^2.3.6",
+    "axios": "^1.13.2",
+    "cheerio": "^1.1.2",
+    "commander": "^14.0.2",
+    "dayjs": "^1.11.19",
+    "fast-xml-parser": "^5.3.2",
+    "iconv-lite": "^0.7.0",
+    "jssha": "^3.3.1",
+    "md5": "^2.3.0",
+    "ts-md5": "^2.0.1",
+    "zod": "^4.1.12"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.24",
+    "typescript": "^5.3.3"
+  }
+}
