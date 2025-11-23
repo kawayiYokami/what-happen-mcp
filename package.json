@@ -1,12 +1,12 @@
 {
-  "name": "news-aggregator-mcp",
+  "name": "what-happen-mcp",
   "version": "0.1.0",
-  "description": "news-aggregator-mcp",
-  "private": true,
+  "description": "MCP server for what-happen - A comprehensive news aggregation backend service",
+  
   "type": "module",
   "bin": {
-    "news-aggregator-mcp": "./build/index.js",
-    "news-aggregator": "./build/cli.js"
+    "what-happen-mcp": "./build/index.js",
+    "what-happen": "./build/cli.js"
   },
   "files": [
     "build"

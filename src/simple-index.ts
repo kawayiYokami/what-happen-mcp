@@ -8,12 +8,13 @@ import {
 } from "@modelcontextprotocol/sdk/types.js";
 import { SimpleNewsAggregator } from "./simple-aggregator.js";
 
+const SERVER_NAME = "simple-what-happen-mcp";
 const aggregator = new SimpleNewsAggregator();
 
 // Create an MCP server
 const server = new Server(
   {
-    name: "simple-news-aggregator-mcp",
+    name: SERVER_NAME,
     version: "1.0.0",
   },
   {
@@ -133,7 +134,7 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
 async function main() {
   const transport = new StdioServerTransport();
   await server.connect(transport);
-  console.error("Simple News Aggregator MCP server running on stdio");
+  console.error(`${SERVER_NAME} server running on stdio`);
 }
 
 main().catch((error) => {

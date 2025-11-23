@@ -1,7 +1,7 @@
 import {rss2json} from "../utils/index.js";
 import dayjs from "dayjs";
-import utc from "dayjs/esm/plugin/utc";
-import timezone from "dayjs/esm/plugin/timezone";
+import utc from "dayjs/plugin/utc.js";
+import timezone from "dayjs/plugin/timezone.js";
 import {NewsItem} from "../types/index.js";
 
 const PCBETA_WIN_11_RSS = process.env.PCBETA_WIN_11_RSS || "https://bbs.pcbeta.com/forum.php?mod=rss&fid=521&auth=0";

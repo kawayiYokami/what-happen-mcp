@@ -1,10 +1,10 @@
 import axios from "axios";
 import dayjs from "dayjs";
-import utcPlugin from "dayjs/esm/plugin/utc";
-import timezonePlugin from "dayjs/esm/plugin/timezone";
+import utc from "dayjs/plugin/utc.js";
+import timezone from "dayjs/plugin/timezone.js";
 
-dayjs.extend(utcPlugin);
-dayjs.extend(timezonePlugin);
+dayjs.extend(utc);
+dayjs.extend(timezone);
 import jsSHA from "jssha";
 import * as cheerio from "cheerio";
 import {Md5} from "ts-md5";

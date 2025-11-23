@@ -3,35 +3,33 @@
  */
 
 // 热搜榜平台
-export {zhihu} from './zhihu'
-export {weibo} from './weibo'
-export {baidu, baiduTeleplay} from './baidu'
-export {douyin} from './douyin'
-// export {kuaishou} from './kuaishou'
-export {toutiao} from './toutiao'
+export {zhihu} from './zhihu.js'
+export {weibo} from './weibo.js'
+export {baidu, baiduTeleplay} from './baidu.js'
+export {douyin} from './douyin.js'
+export {toutiao} from './toutiao.js'
 
 // 科技资讯平台
-export {githubTrending} from './github'
-// export {_36kr} from './_36kr'
-export {ithome} from './ithome'
-export {solidot} from './solidot'
-export {v2exShare} from './v2ex'
-export {coolapk} from './coolapk'
-export {juejin} from './juejin'
-export {csdn} from './csdn'
-export {sspai} from './sspai'
-export {_51cto} from './_51cto'
-export {autohome, autohomeRankHot, autohomeRankArticle, autohomeRankVideo} from './autohome'
-export {cankaoxiaoxi} from './cankaoxiaoxi'
-export {dongchediHot, dongchediNews} from "./dongchedi"
-export {fishpi} from "./fishpi"
-export {gelonghui} from './gelonghui'
+export {githubTrending} from './github.js'
+export {ithome} from './ithome.js'
+export {solidot} from './solidot.js'
+export {v2exShare} from './v2ex.js'
+export {coolapk} from './coolapk.js'
+export {juejin} from './juejin.js'
+export {csdn} from './csdn.js'
+export {sspai} from './sspai.js'
+export {_51cto} from './_51cto.js'
+export {autohome, autohomeRankHot, autohomeRankArticle, autohomeRankVideo} from './autohome.js'
+export {cankaoxiaoxi} from './cankaoxiaoxi.js'
+export {dongchediHot, dongchediNews} from "./dongchedi.js"
+export {fishpi} from "./fishpi.js"
+export {gelonghui} from './gelonghui.js'
 // 社会新闻平台
-export {thepaper} from './thepaper'
-export {tieba} from './tieba'
-export {kaopu} from './kaopu'
-export {telegraph} from './cls'
-export {sputniknewscn} from './sputniknewscn'
+export {thepaper} from './thepaper.js'
+export {tieba} from './tieba.js'
+export {kaopu} from './kaopu.js'
+export {telegraph} from './cls.js'
+export {sputniknewscn} from './sputniknewscn.js'
 export {
     hupu,
     hupuCBA,
@@ -43,16 +41,15 @@ export {
     hupuNBA,
     hupuSports,
     hupuValorant
-} from "./hupu";
-export {jin10} from './jin10'
-// export {jqka} from './jqka'
-export {zaobao} from './zaobao'
+} from "./hupu.js";
+export {jin10} from './jin10.js'
+export {zaobao} from './zaobao.js'
 // 娱乐资讯平台
-export {bHotSearch, bHotVideo, bRanking} from './bilibili'
-export {douban} from './douban'
-export {kugou, qqMusic} from './music'
-export {pcbetaWin, pcbetaWin11} from './pcbeta'
-export {nowcoder} from './nowcoder'
+export {bHotSearch, bHotVideo, bRanking} from './bilibili.js'
+export {douban} from './douban.js'
+export {kugou, qqMusic} from './music.js'
+export {pcbetaWin, pcbetaWin11} from './pcbeta.js'
+export {nowcoder} from './nowcoder.js'
 // 财经新闻平台
-export {wallStreetCnLive, wallStreetCnNews, wallStreetCnHot} from './wallstreetcn'
-export {hotstock, stockSha, stockShb, stockSza, stockSzb, stockCyb, stockZxb, stockHk, stockUs} from './stock'
+export {wallStreetCnLive, wallStreetCnNews, wallStreetCnHot} from './wallstreetcn.js'
+export {hotstock, stockSha, stockShb, stockSza, stockSzb, stockCyb, stockZxb, stockHk, stockUs} from './stock.js'

@@ -16,7 +16,6 @@
     "name": "科技资讯",
     "platform": [
       "github",
-      "_36kr",
       "ithome",
       "solidot",
       "v2ex",
@@ -35,7 +34,6 @@
     "platform": [
       "weibo",
       "baidu",
-      "kuaishou",
       "douyin",
       "zhihu",
       "toutiao"
@@ -45,38 +43,40 @@
     "category": "entertainment",
     "name": "娱乐资讯",
     "platform": [
-      "b_hot_search",
+      "bHotSearch",
       "douban",
-      "bd_tv",
       "kugou",
-      "qq_music",
-      "b_hot_video",
-      "b_rank"
+      "qqMusic",
+      "bHotVideo",
+      "bRanking"
     ]
   },
   {
     "category": "sports",
     "name": "体育赛事",
     "platform": [
-      "hupu_lol",
-      "hupu_fifa",
-      "hupu_nba",
-      "hupu_cba",
-      "hupu_csl",
-      "hupu_valorant",
-      "hupu_sports",
-      "hupu_kog"
+      "hupu",
+      "hupuNBA",
+      "hupuCBA",
+      "hupuCSL",
+      "hupuEWC",
+      "hupuFIFA",
+      "hupuKOG",
+      "hupuLOL",
+      "hupuSports",
+      "hupuValorant"
     ]
   },
   {
     "category": "car",
     "name": "汽车资讯",
     "platform": [
-      "dcd_news",
-      "dcd_hot",
+      "dongchediNews",
+      "dongchediHot",
       "autohome",
-      "autohome_hot",
-      "autohome_video"
+      "autohomeRankHot",
+      "autohomeRankArticle",
+      "autohomeRankVideo"
     ]
   },
   {
@@ -100,4 +100,3 @@
     ]
   }
 ]
-

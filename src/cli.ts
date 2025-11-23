@@ -7,7 +7,7 @@ import type { NewsItem, PlatformConfig } from './types/index.js';
 const aggregator = new NewsAggregator();
 
 program
-  .name('news-aggregator')
+  .name('what-happen')
   .description('CLI tool for news aggregation from multiple platforms')
   .version('1.0.0');
 
