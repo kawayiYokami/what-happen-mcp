@@ -57,7 +57,6 @@ const refreshTelegraphList = async () => {
         } = (await axios.get(url, {params})).data;
         return {};
     } catch (error) {
-        console.log(error);
         return [];
     }
 };
@@ -109,7 +108,6 @@ export const telegraph = async (): Promise<Array<NewsItem>> => {
 
         return list;
     } catch (error) {
-        console.log(error);
         return [];
     }
 };
@@ -152,7 +150,6 @@ const telegraphHis = async () => {
         // TODO 暂时没用
         return telegramList;
     } catch (error) {
-        console.log(error);
     }
 };
 

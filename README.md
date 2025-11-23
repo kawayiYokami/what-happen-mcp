@@ -58,7 +58,8 @@ npx what-happen-mcp
     "what-happen": {
       "command": "npx",
       "args": [
-        "what-happen-mcp"
+        "-y",
+        "what-happen-mcp@latest"
       ]
     }
   }

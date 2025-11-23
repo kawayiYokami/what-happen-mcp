@@ -96,7 +96,6 @@ export const proxyQQMusic = async () => {
     const week = dayjs().week()
     const year = dayjs().year()
     const period = `${year}_${week}`;
-    console.log(period);
     const payload = JSON.stringify({
         "comm": {
             "g_tk": 1124214810,

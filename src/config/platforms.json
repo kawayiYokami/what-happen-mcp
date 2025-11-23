@@ -15,10 +15,10 @@
     "category": "tech",
     "name": "科技资讯",
     "platform": [
-      "github",
+      "githubTrending",
       "ithome",
       "solidot",
-      "v2ex",
+      "v2exShare",
       "coolapk",
       "juejin",
       "sspai",
@@ -83,20 +83,21 @@
     "category": "finance",
     "name": "财经新闻",
     "platform": [
-      "wallstreetcn_hot",
+      "wallStreetCnHot",
       "jqka",
-      "cls_telegraph",
+      "telegraph",
       "gelonghui",
-      "wallstreetcn_live",
-      "wallstreetcn_news",
+      "wallStreetCnLive",
+      "wallStreetCnNews",
       "hotstock",
-      "stock_sha",
-      "stock_shb",
-      "stock_sza",
-      "stock_szb",
-      "stock_cyb",
-      "stock_hk",
-      "stock_us"
+      "stockSha",
+      "stockShb",
+      "stockSza",
+      "stockSzb",
+      "stockCyb",
+      "stockZxb",
+      "stockHk",
+      "stockUs"
     ]
   }
 ]

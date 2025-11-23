@@ -1,6 +1,6 @@
 {
   "name": "what-happen-mcp",
-  "version": "0.1.0",
+  "version": "0.1.3",
   "description": "MCP server for what-happen - A comprehensive news aggregation backend service",
   
   "type": "module",
